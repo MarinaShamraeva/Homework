@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+    body {
+        font-family: Montserrat, serif;
+    }
+
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
+.top__wrapper {
+    background: #E1FF8F;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    width: 1440px;
+}
+
+.top__group {
+    pointer-events: none;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute; top: 0;
+    margin-left: 854px;
+}
+
+
+
+.top__star-3 {
+ padding-top: 69px;
+ padding-left: 156px;
+}
+
+.top__star-3:hover {
+    fill: blue;
+    
+}
+
+.top__star-2 {
+ padding-left: 63px;
+ padding-bottom: 45px;
+
+  }
+
+.top__content {
+    padding-left: 120px;
+    padding-right: 551px; 
+    position: relative; 
+}
+
+.top__heading {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 78.02px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding-bottom: 24px; 
+}
+.top__desc {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    padding-bottom: 48px;
+}
+.top__start {
+    background: #202027;
+    border-radius: 60px;
+    border: 1px;
+    padding-left: 65px;
+    padding-right: 65px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 34.01px;
+    text-align: center;
+    color: #FFFFFF;
+    font: inherit;  
+      
+}
+
+.top__start:hover {
+   background-color: #FFFFFF; 
+   border: 1px solid black;
+   color: #202027;
+}
+.top__star-5 {
+ padding-left: 948px;
+}
+
+.top__star-4 {
+    padding-left: 1013px;
+    padding-bottom: 59px;
+}
+
+
+.top__text {
+    background: #BCEC30;
+    border: 1px solid #FFFFFF33;
+    padding-left: 49px;
+    pointer-events: none;
+    display: flex;
+    justify-content: flex-start;
+}
+ 
+.top__box-star {
+   position: absolute;
+   pointer-events: none;
+}
+
+.top__box-stars-1 {
+    display: grid;
+    gap: 36px;
+    pointer-events: none;
+}
+
+
+.top__box-star-2 {
+ padding-top: 94px;  
+ padding-left: 63px; 
+ pointer-events: none;
+}
+
+.games {
+padding-top: 94px;
+box-sizing: border-box;
+background-size: cover;
+background-position: center;
+background: #202027;
+background: url(img/background-games.png);
+background-repeat: no-repeat;
+padding-bottom: 50px;
+padding-left: 119px;
+padding-right: 120px;
+}
+
+.games__heading {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 78.02px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding-bottom: 24px;
+    color: #FFFFFF;
+}
+
+.games__description {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 72px;
+    color: #FFFFFF;
+}
+
+.games__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+} 
+
+.games-box {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.games__product {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background: white;
+    border-radius: 30px;
+}
+
+.games__product:hover {
+transform: scale(110%);
+transition-delay: 0.3s;
+transition: 0.2s;
+}
+
+.games__product-box {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-top: 32px;
+    padding-left: 32px;
+    padding-bottom: 36px;
+    padding-right: 32px;
+}   
+
+.games__product-box-title {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 17.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background: #F7F7F7;
+    border-radius: 53px;
+    padding-top: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 10px;
+    margin-right: auto;
+    color: black;
+  }
+
+.games__product-box-desc {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39.01px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: black;
+}
