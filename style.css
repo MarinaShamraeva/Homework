@@ -12,28 +12,31 @@
     padding-right: calc(50% - 600px);
 }
 
-.top__wrapper {
+.top {
     background: #E1FF8F;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-content: center;
-    width: 1440px;
+    position: relative;
+    
 }
 
 .top__group {
     pointer-events: none;
     display: flex;
     flex-wrap: wrap;
-    position: absolute; top: 0;
-    margin-left: 854px;
-}
-
+    left: 854px;
+    top: 0px;
+    position: absolute;
+   }
 
 
 .top__star-3 {
- padding-top: 69px;
- padding-left: 156px;
+ position: absolute;  
+ top: 69px;
+ left: 156px;
+   
 }
 
 .top__star-3:hover {
@@ -42,8 +45,9 @@
 }
 
 .top__star-2 {
- padding-left: 63px;
- padding-bottom: 45px;
+    position: absolute;  
+    top: 94px;
+    left: 63px;
 
   }
 
@@ -61,7 +65,9 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     padding-bottom: 24px; 
+    padding-top: 196px;
 }
+
 .top__desc {
     font-size: 24px;
     font-weight: 400;
@@ -77,14 +83,22 @@
     padding-right: 65px;
     padding-top: 16px;
     padding-bottom: 16px;
+    margin-bottom: 246px;
     font-size: 24px;
     font-weight: 600;
     line-height: 34.01px;
     text-align: center;
     color: #FFFFFF;
     font: inherit;  
-      
+    cursor: pointer;
+        
 }
+
+main {
+    scroll-behavior: smooth;
+   
+}
+
 
 .top__start:hover {
    background-color: #FFFFFF; 
@@ -92,24 +106,39 @@
    color: #202027;
 }
 .top__star-5 {
- padding-left: 948px;
+ position: absolute;
+ bottom: 225px;
+ right: 455px;
+ pointer-events: none;
+ 
 }
 
 .top__star-4 {
-    padding-left: 1013px;
-    padding-bottom: 59px;
+ position: absolute;  
+ right: 344px;
+ bottom: 149px; 
+ pointer-events: none;
 }
 
 
 .top__text {
-    background: #BCEC30;
-    border: 1px solid #FFFFFF33;
-    padding-left: 49px;
-    pointer-events: none;
-    display: flex;
-    justify-content: flex-start;
+ background: #BCEC30;
+ border: 1px solid #FFFFFF33;
+ pointer-events: none;
+ display: flex;
+ padding: 27px 49px 27px 49px;
+ gap: 10px;
+ font-size: 30px;
+ font-weight: 700;
+ line-height: 33px;
+ letter-spacing: 0.04em;
+ text-align: left;
+ text-underline-position: from-font;
+ text-decoration-skip-ink: none;
+ position: absolute;
+ bottom: 0px;
 }
- 
+
 .top__box-star {
    position: absolute;
    pointer-events: none;
@@ -119,6 +148,7 @@
     display: grid;
     gap: 36px;
     pointer-events: none;
+
 }
 
 
@@ -134,11 +164,31 @@ box-sizing: border-box;
 background-size: cover;
 background-position: center;
 background: #202027;
-background: url(img/background-games.png);
-background-repeat: no-repeat;
 padding-bottom: 50px;
 padding-left: 119px;
 padding-right: 120px;
+position: relative;
+}
+
+.games__star-1 {
+ position: absolute;
+ top: 77px;
+ left: 933px;
+ pointer-events: none;
+}
+
+.games__star-11 {
+ position: absolute;
+ top: 770px;
+ left: 25px;
+ pointer-events: none;
+}
+
+.games__star-12 {
+ position: absolute;
+ top: 822px;
+ left: 40px;
+ pointer-events: none;
 }
 
 .games__heading {
@@ -175,6 +225,10 @@ padding-right: 120px;
     gap: 32px;
 }
 
+a {
+    text-decoration: none;
+}
+
 .games__product {
     display: flex;
     flex-direction: column;
@@ -182,13 +236,15 @@ padding-right: 120px;
     align-items: flex-start;
     background: white;
     border-radius: 30px;
-}
+    }
 
 .games__product:hover {
-transform: scale(110%);
-transition-delay: 0.3s;
-transition: 0.2s;
+ transform: scale(110%);
+ transition-delay: 0.3s;
+ transition: 0.2s;
 }
+
+
 
 .games__product-box {
     display: flex;
