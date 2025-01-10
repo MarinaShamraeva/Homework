@@ -11,85 +11,100 @@
 </head>
 
 <body>
- <section "top center">
-    <div class="top__wrapper">
-     <a href="#" class="top__group"><img src="svg/Group.svg" alt="#"></a>  
-     <a class="top__star-3" href="#"><img src="svg/Star 3.svg" alt="#"></a>   
-     <a class="top__star-2" href="javascript:void(0);"><img src="svg/Star 2.svg" alt="#"></a>
-                       
-     <div class="top__content">            
+ <section>
+    <div class="top">
+      <a href="javascript:void(0);" class="top__group"><img src="svg/Group.svg" alt="#"></a>  
+      <a class="top__star-3" href="javascript:void(0);"><img src="svg/Star 3.svg" alt="#"></a>   
+      <a class="top__star-2" href="javascript:void(0);"><img src="svg/Star 2.svg" alt="#"></a>           
+     <div class="top__content center">            
        <h1 class="top__heading">Добро пожаловать <br> на мой сайт мини-игр</h1>
        <p class="top__desc">Тебе предстоит пройти несколько увлекательных игр. <br> Если готов, нажимай  <b>«Поехали!»</b> и <b>приступай</b>.</p>
-       <button class="top__start">Поехали!</button>
+       <button class="top__start" onclick="window.location.href='#main'">Поехали!</button></a>
      </div>  
-           
-     <a class="top__star-5" href="javascript:void(0);"><img src="svg/Star 5.svg" alt="#"></a>
-     <a class="top__star-4" href="javascript:void(0);"><img src="svg/Star 4.svg" alt="#"></a>
-     <a href="#" class="top__text"><img src="svg/ribbon.svg" alt="#"></a>              
+      <a class="top__star-5" href="javascript:void(0);"><img src="svg/Star 5.svg" alt="#"></a>
+      <a class="top__star-4" href="javascript:void(0);"><img src="svg/Star 4.svg" alt="#"></a>
+      <h3 class="top__text">Викторина <img src="svg/Star.svg" alt="#"> угадай число <img src="svg/Star.svg" alt="#"> Переверни текст <img src="svg/Star.svg" alt="#"> Простая арифметика <img src="svg/Star.svg" alt="#"> Камень, ножницы, бумага <img src="svg/Star.svg" alt="#"> Генератор случайных цветов <img src="svg/Star.svg" alt="#"></h3>      
     </div>         
  </section>
 
-  <main>
+  <main id="main">
      <div class="games center">
+       <a class="games__star-1" href="javascript:void(0);"><img src="svg/Star 1.svg" alt="#"></a>
+       <a class="games__star-11" href="javascript:void(0);"><img src="svg/Star 11.svg" alt="#"></a>
+       <a class="games__star-12" href="javascript:void(0);"><img src="svg/Star 12.svg" alt="#"></a>
        <h1 class="games__heading">Об играх</h1>
        <p class="games__description">В моей коллекции представлено 6 игр на разные темы. <br> Игры несложные — в них может поиграть каждый. <br>
         Все игры доступны для пользования.</p>
 
         <div class="games__wrapper"> 
-
           <div class="games-box">
+            <a href="#">
               <div class="games__product">
-               <a href="img/cover-1.png"><img src="img/cover-1.png" alt="Изображение карточки-1"></a>
-                  <div class="games__product-box">
-                    <h6 class="games__product-box-title">Игра № 1</h6>
-                    <p class="games__product-box-desc">Угадай число</p>
-                  </div> 
-              </div>
+              <img src="img/cover-1.png" alt="Изображение карточки-1">
+                 <div class="games__product-box">
+                   <h6 class="games__product-box-title">Игра № 1</h6>
+                   <p class="games__product-box-desc">Угадай число</p>
+                 </div> 
+             </div>
+            </a>
+            <a href="#">
               <div class="games__product">
-                 <a href="#"><img src="img/cover-4.png" alt="Изображение карточки-4"></a>
-                  <div class="games__product-box">
-                    <h6 class="games__product-box-title">Игра № 4</h6>
-                    <p class="games__product-box-desc">Камень, <br> ножницы, <br> бумага</p>
-                  </div>
-              </div>
+              <img src="img/cover-4.png" alt="Изображение карточки-4">
+                <div class="games__product-box">
+                  <h6 class="games__product-box-title">Игра № 4</h6>
+                  <p class="games__product-box-desc">Камень, <br> ножницы, <br> бумага</p>
+                </div>
+            </div>
+          </a>  
           </div>
 
           <div class="games-box">
-            <div class="games__product">
-                <a href="#"><img src="img/cover-2.png" alt="Изображение карточки-2"></a>
+            <a href="#">
+              <div class="games__product">
+                <img src="img/cover-2.png" alt="Изображение карточки-2">
                 <div class="games__product-box">
                   <h6 class="games__product-box-title">Игра № 2</h6>
                   <p class="games__product-box-desc">Простая <br> арифметика</p>
                 </div>     
             </div>
-  
+            </a>
+
+           <a href="#">
             <div class="games__product">
-              <a href="#"><img src="img/cover-5.png" alt="Изображение карточки-5"></a>
+               <img src="img/cover-5.png" alt="Изображение карточки-5">
                 <div class="games__product-box">
                   <h6 class="games__product-box-title">Игра № 5</h6>
                   <p class="games__product-box-desc">Простая <br> викторина</p>
                 </div>                    
             </div>
+           </a>
           </div>
 
           <div class="games-box">
+            <a href="#">
+              <div class="games__product">
+                <img src="img/cover-3.png" alt="Изображение карточки-3">
+                <div class="games__product-box">
+                <h6 class="games__product-box-title">Игра № 3</h6>
+                <p class="games__product-box-desc">Переверни текст</p>
+                </div>
+              </div>
+            </a>
+
+           <a href="#">
             <div class="games__product">
-              <a href="#"><img src="img/cover-3.png" alt="Изображение карточки-3"></a>
+              <img src="img/cover-6.png" alt="Изображение карточки-6">
               <div class="games__product-box">
-              <h6 class="games__product-box-title">Игра № 3</h6>
-              <p class="games__product-box-desc">Переверни текст</p>
-              </div>
-            </div>
-    
-            <div class="games__product">
-                <a href="#"><img src="img/cover-6.png" alt="Изображение карточки-6" class="games__ product_png"></a>
-               <div class="games__product-box">
-                 <h6 class="games__product-box-title">Игра № 6</h6>
-                 <p class="games__product-box-desc">Генератор  <br> случайных <br> цветов</p>
-              </div>
-            </div>
+                <h6 class="games__product-box-title">Игра № 6</h6>
+                <p class="games__product-box-desc">Генератор  <br> случайных <br> цветов</p>
+             </div>
+           </div>
+           </a>          
           </div>            
   </main>
                    
 </body>
 </html>
+
+
+
