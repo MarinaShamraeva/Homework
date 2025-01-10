@@ -10,48 +10,40 @@
     overflow-x: hidden;
     }
 
- .center {
- padding-left: calc(50% - 600px);
- padding-right: calc(50% - 600px);
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
 }
 
 .top {
-    background: #E1FF8F;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-content: center;
-    position: relative;
-    
+ background: #E1FF8F;
+ display: flex;
+ flex-direction: column;
+ flex-wrap: nowrap;
+ align-content: center;
+ position: relative;  
 }
 
 .top__group {
-    pointer-events: none;
-    display: flex;
-    flex-wrap: wrap;
-    right: 0px;
-    top: 0px;
-    position: absolute;
-   }
-
+ pointer-events: none;
+ display: flex;
+ flex-wrap: wrap;
+ right: 0px;
+ top: 0px;
+ position: absolute;
+}
 
 .top__star-3 {
  position: absolute;  
  top: 69px;
  left: 156px;
-   
-}
-
-.top__star-3:hover {
-    fill: blue;
-    
 }
 
 .top__star-2 {
-    position: absolute;  
-    top: 94px;
-    left: 63px;
-    pointer-events: none;
+ position: absolute;  
+ top: 94px;
+ left: 63px;
+ pointer-events: none;
 }
 
 .top__content {
@@ -59,48 +51,46 @@
 }
 
 .top__heading {
-    font-size: 64px;
-    font-weight: 700;
-    line-height: 78.02px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    padding-bottom: 24px; 
-    padding-top: 196px;
+ font-size: 64px;
+ font-weight: 700;
+ line-height: 78.02px;
+ text-align: left;
+ text-underline-position: from-font;
+ text-decoration-skip-ink: none;
+ padding-bottom: 24px; 
+ padding-top: 196px;
 }
 
 .top__desc {
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 32px;
-    text-align: left;
-    padding-bottom: 48px;
+ font-size: 24px;
+ font-weight: 400;
+ line-height: 32px;
+ text-align: left;
+ padding-bottom: 48px;
 }
 
 .top__start {
-    background: #202027;
-    border-radius: 60px;
-    border: 1px;
-    padding-left: 65px;
-    padding-right: 65px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    margin-bottom: 246px;
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 34.01px;
-    text-align: center;
-    color: #FFFFFF;
-    font: inherit;  
-    cursor: pointer;
-    
+ background: #202027;
+ border-radius: 60px;
+ border: 1px;
+ padding-left: 65px;
+ padding-right: 65px;
+ padding-top: 16px;
+ padding-bottom: 16px;
+ margin-bottom: 246px;
+ font-size: 24px;
+ font-weight: 600;
+ line-height: 34.01px;
+ text-align: center;
+ color: #FFFFFF;
+ font: inherit;  
+ cursor: pointer;  
 }
 
-
 .top__start:hover {
-   background-color: #FFFFFF; 
-   border: 1px solid black;
-   color: #202027;
+ background-color: #FFFFFF; 
+ border: 1px solid black;
+ color: #202027;
 }
 
 .top__star-5 {
@@ -108,7 +98,6 @@
  bottom: 225px;
  right: 455px;
  pointer-events: none;
- 
 }
 
 .top__star-4 {
@@ -117,7 +106,6 @@
  bottom: 149px; 
  pointer-events: none;
 }
-
 
 .top__text {
  background: #BCEC30;
@@ -139,16 +127,12 @@
  text-transform: uppercase;
 }
 
-
-
 .games {
 padding-top: 94px;
 box-sizing: border-box;
 background-size: cover;
 background-position: center;
-
 padding-bottom: 50px;
-
 position: relative;
 }
 
@@ -159,7 +143,6 @@ position: relative;
  pointer-events: none;
   z-index: -1; 
 }
-
 
 .games__star-11 {
  position: absolute;
@@ -176,37 +159,37 @@ position: relative;
 }
 
 .games__heading {
-    font-size: 64px;
-    font-weight: 700;
-    line-height: 78.02px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    padding-bottom: 24px;
-    color: #FFFFFF;
+ font-size: 64px;
+ font-weight: 700;
+ line-height: 78.02px;
+ text-align: left;
+ text-underline-position: from-font;
+ text-decoration-skip-ink: none;
+ padding-bottom: 24px;
+ color: #FFFFFF;
 }
 
 .games__description {
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 32px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    margin-bottom: 72px;
-    color: #FFFFFF;
+ font-size: 24px;
+ font-weight: 400;
+ line-height: 32px;
+ text-align: left;
+ text-underline-position: from-font;
+ text-decoration-skip-ink: none;
+ margin-bottom: 72px;
+ color: #FFFFFF;
 }
 
 .games__wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 32px;
+ display: flex;
+ flex-wrap: wrap;
+ gap: 32px;
 } 
 
 .games-box {
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
+ display: flex;
+ flex-direction: column;
+ gap: 32px;
 }
 
 a {
@@ -214,13 +197,13 @@ a {
 }
 
 .games__product {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    background: white;
-    border-radius: 30px;
-    }
+ display: flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+ align-items: flex-start;
+ background: white;
+ border-radius: 30px;
+}
 
 .games__product:hover {
  transform: scale(110%);
@@ -228,41 +211,39 @@ a {
  transition: 0.2s;
 }
 
-
-
 .games__product-box {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    padding-top: 32px;
-    padding-left: 32px;
-    padding-bottom: 36px;
-    padding-right: 32px;
+ display: flex;
+ flex-direction: column;
+ gap: 16px;
+ padding-top: 32px;
+ padding-left: 32px;
+ padding-bottom: 36px;
+ padding-right: 32px;
 }   
 
 .games__product-box-title {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 17.6px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    background: #F7F7F7;
-    border-radius: 53px;
-    padding-top: 8px;
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-bottom: 10px;
-    margin-right: auto;
-    color: black;
-  }
+ font-size: 16px;
+ font-weight: 500;
+ line-height: 17.6px;
+ text-align: left;
+ text-underline-position: from-font;
+ text-decoration-skip-ink: none;
+ background: #F7F7F7;
+ border-radius: 53px;
+ padding-top: 8px;
+ padding-left: 16px;
+ padding-right: 16px;
+ padding-bottom: 10px;
+ margin-right: auto;
+ color: black;
+}
 
 .games__product-box-desc {
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 39.01px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    color: black;
+ font-size: 32px;
+ font-weight: 700;
+ line-height: 39.01px;
+ text-align: left;
+ text-underline-position: from-font;
+ text-decoration-skip-ink: none;
+ color: black;
 }
